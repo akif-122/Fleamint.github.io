@@ -1,0 +1,532 @@
+
+/*
+=================================
+	CORPORATE HEADER START
+=================================
+*/
+.corporate-header{
+	margin: 70px 0;
+}
+.corporate-header .corporate-header-text{
+	margin-bottom: 20px;
+}
+
+.corporate-header .corporate-header-text h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.corporate-header .video-section{
+	width: 90%;
+	margin: 30px auto;
+	position: relative;
+	overflow: hidden;
+}
+.corporate-header .video-section .video-play-btn{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.corporate-header .video-section .video-play-btn span{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: var(--secondry-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 50%;
+	padding-left: 5px;
+	cursor: pointer;
+}
+.corporate-header h2 span{
+	color: var(--secondry-color);
+}
+/*
+.corporate-header .video-section .video-play-btn span:after{
+	content: '';
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid var(--white);
+}*/
+
+/*
+=================================
+	CORPORATE HEADER END
+=================================
+*/
+
+
+/*
+=================================
+	CORPORATE CONTENT START
+=================================
+*/
+.corporate-content{
+	width: 90%;
+	margin: 90px auto;
+	padding: 3	0px 0;
+}
+.corporate-content .corporate-tabs ul{
+	flex-direction: column;
+	border-bottom: none;
+}
+.corporate-content .corporate-tabs ul li{
+	display: block;
+	margin: 10px 0;
+	width: 90%;
+}
+.corporate-content .corporate-tabs ul li a{
+	display: block;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	background: var(--white);
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.corporate-content .corporate-tabs ul li a.active,
+.corporate-content .corporate-tabs ul li a:hover{
+	color: var(--white);
+	border: 1px solid var(--primary-color);
+	background: var(--primary-color);
+}
+
+.corporate-text h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--primary-color);
+
+}
+.corporate-text h3{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--primary-color);
+}
+.corporate-text p{
+	margin-bottom: 20px;
+}
+/*
+=================================
+	CORPORATE CONTENT END
+=================================
+*/
+
+
+/*
+=================================
+	INQUIRE SECTION START
+=================================
+*/
+.enquire-sec{
+	padding-top: 50px;
+	margin: 60px auto;
+	width: 90%;
+}
+
+.enquire-sec .enquire-text h3{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--light-black);
+	margin-bottom: 20px;
+}
+
+.enquire-sec .enquire-text .enquire{
+	margin: 30px 0;
+}
+.enquire-sec .enquire-text .enquire p{
+	font-size: 15px;
+
+}
+.enquire-sec .enquire-text .enquire p img{
+	margin-right: 10px;
+}
+
+
+.equire-form{
+	padding: 20px 10px;
+	background: var(--white);
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	border-radius: 10px;
+}
+.equire-form h3{
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 45px;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--light-black);
+	margin-bottom: 20px;
+}
+.equire-form form{
+	width: 80%;
+	margin: 0 auto;
+}
+.equire-form input{
+	border: 1px solid #CBCBCB;
+	border-radius: 4px;
+	height: 40px;
+	padding: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #5B5B5B;
+	box-shadow: none;
+
+}
+
+
+.equire-form input.submit-btn{
+	width: 100%;
+	height: 48px;
+	display: block;
+	color: var(--primary-color);
+	background: var(--white);
+	border: 1px solid var(--primary-color);
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.equire-form input.submit-btn:hover{
+	color: var(--white);
+	background: var(--primary-color);
+}
+
+.equire-form textarea{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #5B5B5B;
+	box-shadow: none;
+}
+/*
+=================================
+	INQUIRE SECTION END
+=================================
+*/
+
+
+/*
+=====================================
+	CORPORATE PARTNER SECTION START
+=====================================
+*/
+.cor-partner{
+	background: transparent;
+	margin: 100px 0;
+}
+/*
+=====================================
+	CORPORATE PARTNER SECTION END
+=====================================
+*/
+
+
+/*
+=====================================
+	BLOG SECTION START
+=====================================
+*/
+.blog{
+	background: url("../img/blogbg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.blog-section{
+	width: 90%;
+	margin: 50px auto;
+	
+}
+.blog-section h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.blog-section p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #191B21;
+	opacity: 0.6;
+}
+.blog-section h5{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.blog-section h4{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: #191919;
+	margin: 15px 0;
+}
+.author{
+	margin: 15px 0;
+}
+.author h6{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #191B21;
+	margin: 0 10px;
+}
+.author p{
+	margin: 0;
+}
+/*
+=====================================
+	BLOG SECTION END
+=====================================
+*/
+
+
+/*
+=====================================
+	NEWSLATER SECTION START
+=====================================
+*/
+.newslater{
+	margin: 100px auto;
+	width: 90%;
+}
+.newslater .news-text h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--light-black);
+	margin-bottom: 10px;
+}
+.newslater .news-text p{
+	margin-bottom: 30px;
+}
+.newslater .news-text .newslater-form .news-input{
+	max-width: 370px;
+	margin: 20px 0;
+}
+.newslater .news-text .newslater-form .news-input input{
+	width: 100%;
+	height: 40px;
+	background: var(--white);
+	border: 1px solid var(--secondry-color);
+	border-right: 0;
+	border-radius: 4px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 10px;
+	font-size: 17px;
+
+
+}
+.newslater .news-text .newslater-form .news-input button{
+	width: 60px;
+	height: 40px;
+	border: 1px solid var(--secondry-color);
+	background: var(--secondry-color);
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	font-size: 18px;
+	font-weight: 300;
+	color: var(--white);
+}
+
+.newslater .news-text .newslater-form .news-input button:hover{
+	color: var(--secondry-color);
+	background: var(--white);
+}
+/*
+=====================================
+	NEWSLATER SECTION END
+=====================================
+*/
+
+
+
+@media screen and (max-width: 1199px){
+
+/*
+=====================================
+	BLOG SECTION START
+=====================================
+*/
+
+.blog-section .blog-btn{
+	margin-top: 50px;
+}
+/*
+=====================================
+	BLOG SECTION END
+=====================================
+*/
+
+
+}
+
+@media screen and (max-width: 991px){
+
+/*
+=================================
+	CORPORATE CONTENT START
+=================================
+*/
+.corporate-content{
+	width: 90%;
+	margin: 50px auto;
+}
+
+.corporate-content .corporate-tabs ul li{
+	margin: 10px auto;
+}
+
+.corporate-text{
+	margin-top: 40px;
+}
+/*
+=================================
+	CORPORATE CONTENT END
+=================================
+*/
+
+}
+
+@media screen and (max-width: 575px){
+
+/*
+=================================
+	CORPORATE HEADER START
+=================================
+*/
+.corporate-header{
+	margin: 50px 0;
+}
+
+
+.corporate-header .corporate-header-text h2{
+	font-size: 26px;
+	line-height: 45px;
+}
+
+p{
+	font-size: 14px;
+}
+/*
+.corporate-header .video-section .video-play-btn span:after{
+	content: '';
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid var(--white);
+}*/
+
+/*
+=================================
+	CORPORATE HEADER END
+=================================
+*/
+
+/*
+=================================
+	CORPORATE CONTENT START
+=================================
+*/
+
+
+.corporate-text h2{
+	font-size: 26px;
+	line-height: 45px;
+
+
+}
+.corporate-text h3{
+	font-size: 20px;
+	line-height: 40px;
+}
+.corporate-text p{
+	font-size: 14px;
+}
+/*
+=================================
+	CORPORATE CONTENT END
+=================================
+*/
+
+/*
+=================================
+	INQUIRE SECTION START
+=================================
+*/
+.enquire-sec{
+	padding-top: 10px;
+}
+
+.enquire-sec .enquire-text h3{
+	font-size: 26px;
+	line-height: 40px;
+}
+
+
+.enquire-sec .enquire-text .enquire p{
+	font-size: 14px;
+
+}
+
+
+
+.equire-form{
+	padding: 20px 10px;
+	background: var(--white);
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	border-radius: 10px;
+}
+.equire-form h3{
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 45px;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--light-black);
+	margin-bottom: 20px;
+}
+/*
+=================================
+	INQUIRE SECTION END
+=================================
+*/
+
+
+}

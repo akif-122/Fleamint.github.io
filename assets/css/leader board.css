@@ -1,0 +1,286 @@
+
+
+/*
+=======================================
+	LEADER BOARD SECTION START
+=======================================
+*/
+.leader-board{
+	width: 90%;
+	margin: 50px auto;
+}
+.leader-board .leader-board-header{
+	margin-bottom: 10px;
+}
+.leader-board .leader-board-header > h2{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+
+.leader-board .leader-board-header .leader-select-container{
+	width: 550px;
+	background: rgba(255,255,255,0.6);
+	border-radius: 10px;
+	padding: 10px 15px;
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+}
+.leader-board-header .leader-select-container .leader-selection{
+	min-width: 140px;
+	max-width: 140px;
+	position: relative;
+	margin-right: 15px
+}
+.leader-board-header .leader-select-container .leader-selection select{
+	width: 100%;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 10px;
+	padding-left: 15px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #868686;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+}
+
+.leader-board-header .leader-select-container .leader-selection:after {
+  content: '>';
+  font: 24px "Consolas", monospace;
+  color: #868686;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform:  rotate(90deg) ;
+  right: 15px;
+  top: 5px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.leader-btn-select{
+	border-left: 1px solid #E5E5E5;
+	padding-left: 15px;
+}
+.leader-btn-select button{
+	height: 40px;
+	border-color: var(--primary-color);
+	background: var(--pink);
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--black);
+	box-shadow: none !important;
+}
+.leader-btn-select button.active{
+	color: var(--white);
+	background: var(--primary-color);
+}
+/*
+=======================================
+	LEADER BOARD SECTION END
+=======================================
+*/
+
+/*
+=======================================
+	LEADER BOARD CARD SECTION START
+=======================================
+*/
+.leader-board-cards .leader-card{
+	border-radius: 10px;
+	background: #fff;
+	border: 1px solid #FBE7D3 !important;
+	margin: 15px 0;
+	overflow: hidden;
+
+}
+.leader-board-cards .leader-card-head{
+	background: var(--primary-color);
+	margin-bottom: 0;
+	padding: 10px 10px;
+	padding-left: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.leader-board-cards .leader-card-head h6{
+	margin: 0;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.leader-board-cards .leader-board-table table{
+	border-radius: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #FBE7D3 !important;
+
+
+}
+
+.leader-board-cards .leader-board-table table thead tr th{
+	border-top: none;
+	border-bottom: 1px solid #FBE7D3 !important;
+	background: rgba(244, 157, 55, 0.6);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--white);
+
+}
+.leader-board-cards .leader-board-table table tbody tr td{
+	background: var(--white);
+	padding: 3px;
+	padding-left: 10px;
+	border-bottom: 1px solid #FBE7D3;
+
+}
+
+.leader-board-cards .leader-board-table table tbody tr td > div{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.leader-board-cards .leader-board-table table tbody tr:last-child td{
+	border-bottom: 1px solid white !important;
+}
+
+.leader-board-cards .leader-board-table table tbody tr td > div span{
+	display: inline-block;
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #374151;
+	
+}
+.leader-board-cards .leader-board-table table tbody tr td > div small{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #00D18C;
+	margin-left: 4px;
+}
+
+.leader-board-cards .leader-board-table table tbody tr td:last-child > div img{
+	margin-right: 5px;
+}
+/*
+=======================================
+	LEADER BOARD CARD SECTION END
+=======================================
+*/
+
+@media screen and (max-width: 991px){
+
+.leader-board{
+	width: 97%;
+	margin: 50px auto;
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+
+.leader-board .leader-board-header .leader-select-container{
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 575px){
+
+
+/*
+=======================================
+	LEADER BOARD SECTION START
+=======================================
+*/
+.leader-board{
+	width: 98%;
+	margin: 50px auto;
+}
+
+.leader-board .leader-board-header .leader-select-container{
+	padding: 10px 8px;
+}
+.leader-board-header .leader-select-container .leader-selection{
+	min-width: 100px;
+	max-width: 140px;
+	margin-right: 5px
+}
+.leader-board-header .leader-select-container .leader-selection select{
+	height: 35px;
+	font-size: 13px;
+}
+
+.leader-board-header .leader-select-container .leader-selection:after {
+  top: 3px;
+}
+
+.leader-btn-select{
+	border-left: 1px solid #E5E5E5;
+	padding-left: 5px;
+}
+.leader-btn-select button{
+	height: 35px;
+	font-size: 14px;
+}
+
+/*
+=======================================
+	LEADER BOARD SECTION END
+=======================================
+*/
+
+
+
+
+/*
+=======================================
+	LEADER BOARD CARD SECTION START
+=======================================
+*/
+.leader-board-cards .leader-card-head{
+	padding-left: 15px;
+}
+.leader-board-cards .leader-card-head h6{
+	font-weight: 600;
+	font-size: 14px;
+}
+
+
+.leader-board-cards .leader-board-table table thead tr th{
+	font-size: 13px;
+
+}
+
+.leader-board-cards .leader-board-table table tbody tr td > div{
+	font-size: 14px;
+}
+.leader-board-cards .leader-board-table table tbody tr td > div span{
+	font-size: 14px;
+}
+.leader-board-cards .leader-board-table table tbody tr td > div small{
+	font-size: 11px;
+}
+
+
+/*
+=======================================
+	LEADER BOARD CARD SECTION END
+=======================================
+*/
+
+}

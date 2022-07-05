@@ -1,0 +1,392 @@
+
+/*
+=======================================
+	HELP CENTER HEADER START
+=======================================
+*/
+.help-center-header{
+	width: 90%;
+	margin: 70px auto;
+	position: relative;
+}
+
+.help-center-header .help-header-content{
+	padding-top: 20px;
+	padding-right: 30px;
+}
+.help-center-header .help-header-content h2{
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 58px;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.help-center-header .help-header-content h2 span{
+	color: var(--secondry-color);
+}
+.help-center-header .help-header-img img{
+	width: 100%;
+}
+.help-center-header .help-filter-container{
+	background: var(--white);
+	box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+	border-radius: 10px;
+	display: flex; 
+	align-items: stretch;
+	overflow: hidden;
+	width: 100%;
+	position: absolute;
+	bottom: 20%;
+	/*transform: translateY(-100%);*/
+}
+.help-center-header .help-filter-container .help-filter-select{
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	padding: 20px 0;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select{
+	flex-basis: 25%;
+	padding: 0 20px;
+	border-right: 1px solid grey;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select:last-child{
+	border: none;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select select{
+	width: 100%;
+	height: 100%;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: var(--light-black);
+	border: none;
+}
+
+.help-center-header .help-filter-container .help-filter-btn button{
+	width: 50px;
+	height: 100%;
+	background: var(--secondry-color);
+	border: 1px solid var(--secondry-color);
+}
+/*
+=======================================
+	HELP CENTER HEADER END
+=======================================
+*/
+
+
+/*
+=======================================
+	HELP GUIDE SECTION START
+=======================================
+*/
+.help-guide{
+	width: 90%;
+	margin: 100px auto;
+}
+
+.help-guide .help-guide-card{
+	height: 220px;
+	box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+	border-radius: 10px;
+	background: var(--white);
+	margin: 15px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.help-guide .help-guide-card.cl-red p{
+	color: var(--secondry-color);
+}
+.help-guide .help-guide-card p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--light-black);
+	opacity: 1;
+	margin-top: 10px;
+}
+
+ .recomend-section > h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 70px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #272D4E;
+}
+.myaccordion{
+	max-width: 900px;
+	margin: auto;
+	padding: 10px 15px;
+}
+.myaccordion .card{
+	background: #FFFFFF;
+	box-shadow: 0px 1px 25px rgba(196, 196, 196, 0.3);
+	border-radius: 7px;
+	border: none;
+	margin: 30px 0;
+}
+.myaccordion .card .card-header{
+	padding: 0;
+	background: transparent;
+	border-bottom: 0;
+	padding: 15px ;
+}
+.myaccordion .card .card-body{
+	padding: 20px ;
+	padding-top: 10px;
+
+}
+.myaccordion .card .show p{
+	color: var(--secondry-color);
+	opacity: 1;
+	transition:all 0.2s ease-in;
+}
+.myaccordion .card .card-header  button{
+	/*background: red;*/
+	width: 100%;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #F5585B;
+	opacity: 1;
+	box-shadow: none;
+}
+.myaccordion .card .card-header  button.collapsed{
+	color: var(--light-black);
+}
+.myaccordion .card .card-header  button .a-icon i:last-child{
+	display: none;
+}
+.myaccordion .card .card-header  button.collapsed .a-icon i:last-child{
+	display: block;
+}
+.myaccordion .card .card-header  button.collapsed .a-icon i{
+	display: none;
+}
+/*
+=======================================
+	HELP GUIDE SECTION END
+=======================================
+*/
+
+
+@media screen and (max-width: 1199px){
+
+/*
+=======================================
+	HELP CENTER HEADER START
+=======================================
+*/
+
+.help-center-header .help-header-content{
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.help-center-header .help-header-content h2{
+	font-size: 42px;
+}
+.help-center-header .help-filter-container{
+	bottom: 5%;
+}
+/*
+=======================================
+	HELP CENTER HEADER END
+=======================================
+*/
+
+
+
+
+}
+
+@media screen and (max-width: 991px){
+
+.help-center-header{
+	width: 95%;
+}
+
+.help-center-header .help-filter-container .help-filter-select .help-select{
+	padding-left: 5px;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select select{
+	font-size: 17px;
+	padding-left: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+
+
+/*
+=======================================
+	HELP CENTER HEADER START
+=======================================
+*/
+
+.help-center-header .help-filter-container .help-filter-select{
+	flex-wrap: wrap;
+	padding: 0px 0;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select{
+	min-width: 50% !important;
+	padding: 0 20px;
+	margin: 7px 0;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select:nth-child(2),
+.help-center-header .help-filter-container .help-filter-select .help-select:last-child{
+	border: none !important;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select select{
+	font-size: 15px;
+}
+
+/*
+=======================================
+	HELP CENTER HEADER END
+=======================================
+*/
+
+
+/*
+=======================================
+	HELP GUIDE SECTION START
+=======================================
+*/
+.help-guide{
+	width: 95%;
+}
+
+ .recomend-section > h2{
+	font-size: 26px;
+	line-height: 40px;
+}
+.myaccordion .card .card-header{
+	padding: 10px 15px;
+}
+.myaccordion .card .card-header  button{
+	font-size: 16px;
+}
+.myaccordion .card .card-body{
+	padding-top: 0;
+}
+.myaccordion .card .card-body p{
+	font-size: 14px;
+}
+/*
+=======================================
+	HELP GUIDE SECTION END
+=======================================
+*/
+
+
+
+}
+
+@media screen and (max-width: 575px){
+
+/*
+=======================================
+	HELP CENTER HEADER START
+=======================================
+*/
+
+.help-center-header .help-header-content h2{
+	font-size: 24px;
+	line-height: 30px;
+}
+
+
+.help-center-header .help-filter-container{
+	flex-direction: column;
+	bottom: -15%;
+}
+.help-center-header .help-filter-container .help-filter-select{
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select{
+	padding-left: 0;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select:last-child{
+	border: none;
+}
+.help-center-header .help-filter-container .help-filter-select .help-select select{
+	font-size: 14px;
+}
+.help-center-header .help-filter-container .help-filter-btn{
+	width: 100%;
+}
+.help-center-header .help-filter-container .help-filter-btn button{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background: var(--secondry-color);
+	border: 1px solid var(--secondry-color);
+}
+.help-center-header .help-filter-container .help-filter-btn button img{
+	width: 15px;
+}
+/*
+=======================================
+	HELP CENTER HEADER END
+=======================================
+*/
+
+/*
+=======================================
+	HELP GUIDE SECTION START
+=======================================
+*/
+.help-guide{
+	width: 95%;
+}
+
+ .recomend-section > h2{
+	font-size: 22px;
+	line-height: 20px;
+}
+.myaccordion{
+	padding: 0 10px;
+}
+.myaccordion .card{
+	margin: 20px 0;
+}
+.myaccordion .card .card-header{
+	padding: 5px 0px;
+}
+.myaccordion .card .card-header  button{
+	font-size: 14px;
+}
+.myaccordion .card .card-body{
+	padding: 10px;
+	padding-top: 0;
+}
+.myaccordion .card .card-body p{
+	font-size: 13px;
+	line-height: 1.4;
+}
+/*
+=======================================
+	HELP GUIDE SECTION END
+=======================================
+*/
+
+
+
+
+
+}

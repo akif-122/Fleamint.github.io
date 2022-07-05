@@ -1,0 +1,742 @@
+@media screen and (max-width: 1199px){
+.m-menu-toggler{
+	margin-left: 50px;
+}
+.m-menu-toggler span{
+	font-size: 22px;
+	color: var(--light-black);
+	cursor: pointer;
+}
+.m-menu-toggler span:hover{
+	color: var(--primary-color);
+}
+/*
+=============================================
+	MOBLE MENU START
+=============================================
+*/
+.mobile-menu{
+	width: 350px;
+	height: 100vh;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	right: -150%;
+	background: var(--white);
+	z-index: 100;
+	padding: 20px 0;
+	box-shadow: -12px 10px 10px rgb(16 30 115 / 6%);
+
+
+}
+.m-menu-close{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 10px;
+}
+.m-menu-close span{
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+	margin-top: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	font-size: 20px;
+	color: var(--primary-color);
+	background: var(--white);
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 5px rgb(16 30 115 / 6%);
+
+}
+.m-menu-close span:hover{
+	color: var(--white);
+	background: var(--primary-color);
+}
+.mobile-menu ul li{
+	border-bottom: 1px solid var(--pink);
+	list-style: none;
+}
+
+.mobile-menu ul li a{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--light-black);
+	padding: 8px 20px;
+
+
+}
+.mobile-menu ul > li.active a{
+	background: var(--primary-color);
+}
+.mobile-menu ul li.active .dropdownMenu a{
+	background: #fff; 
+}
+.mobile-menu ul  li a:hover{
+	color: var(--white);
+	background: var(--primary-color);
+}
+.mobile-menu ul > li.active .dropdownMenu ul li.active a {
+	background: var(--primary-color);
+}
+.mobile-menu ul > li .dropdownMenu{
+	padding-left: 20px;
+
+
+}
+/*
+=============================================
+	MOBLE MENU END
+=============================================
+*/
+
+
+/*
+=============================================
+	HEADER CONTENT START
+=============================================
+*/
+.header-content{
+	padding: 10px 40px;
+	margin: 100px 0;
+}
+
+.header-content .header-text h1{
+	font-size: 35px;
+
+}
+.header-content .header-text p{
+	font-size: 15px;
+
+}
+/*
+=============================================
+	HEADER CONTENT END
+=============================================
+*/
+
+.get-video iframe{
+	height: 280px;
+}
+
+
+}
+
+
+@media screen and (max-width: 991px){
+.dots1{
+	top: 50%;
+	left: -1%;
+	transform: translateY(-50%);
+	width: 300px;
+}
+.dots2{
+	top: -1%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+}
+
+.dots3{
+	top: 50%;
+	right: -1%;
+	transform: translateY(-13%);
+	width: 140px;
+}
+/*
+=============================================
+	CREATOR SECTION START
+=============================================
+*/
+.creator-section{
+	padding: 20px 20px;
+}
+
+.creator-section .creator-text h3{
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.creator-section .creator-text p{
+	font-size: 15px;
+	line-height: 25px;
+}
+.creator-section .creator-text a{
+	margin: 10px 0;
+}
+.get-video iframe{
+	height: 230px;
+}
+/*
+=============================================
+	CREATOR SECTION END
+=============================================
+*/
+/*
+=============================================
+	CONNECT WALLET SECTION START
+=============================================
+*/
+.connect-wallet{
+	padding: 35px 20px;
+	margin: 40px 0;
+}
+
+.connect-wallet h2{
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 35px;
+}
+.connect-wallet p{
+	font-size: 15px;
+
+}
+
+/*
+=============================================
+	CONNECT WALLET SECTION END
+=============================================
+*/
+
+/*
+=============================================
+	CORPORATE SECTION START
+=============================================
+*/
+.corporate-section{
+	padding: 30px 40px;
+}
+.corporate-section .corporate-text h2{
+	font-size: 26px;
+	line-height: 30px;
+	margin: 20px 0;
+}
+.corporate-section .corporate-text p{
+	font-size: 14px;
+	line-height: 25px;
+	margin: 10px 0;
+}
+
+/*
+=============================================
+	CORPORATE SECTION END
+=============================================
+*/
+
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+.get-video iframe{
+	height: 320px;
+}
+/*
+==========================================
+	WALLET POPUP START
+==========================================
+*/
+
+
+.wallet-popup .wallet-pop-content{
+	width: calc(100% - 15px);
+
+}
+/*
+==========================================
+	WALLET POPUP END
+==========================================
+*/
+
+
+
+
+
+
+.dots1{
+	top: 50%;
+	left: -1%;
+	transform: translateY(-50%);
+	width: 300px;
+}
+.dots2{
+	top: -1%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+}
+
+.dots3{
+	top: 50%;
+	right: -1%;
+	transform: translateY(-18%);
+	width: 120px;
+}
+
+}
+
+@media screen and (max-width: 575px){
+.mobile-menu{
+	width: 100%;
+}
+
+.w-btn.fill:hover,
+.w-btn{
+
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 8px;
+	padding: 11px 30px;
+	display: inline-block;
+	color: var(--primary-color);
+	background: transparent;
+	border: 1px solid var(--primary-color);
+	margin-right: 10px;
+}
+
+.header nav{
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	width: 98%;
+}
+.header nav .nav-btn{
+	display: flex;
+	align-items: center;
+	
+
+}
+.header nav .nav-btn a{
+	margin-right: 0;
+	font-size: 15px;
+	padding: 8px 18px;
+}
+
+.header nav .nav-btn .m-menu-toggler{
+	margin-left: 15px;
+}
+
+.last-week .last-week-container h3 .in-select-wrap:after {
+  content: '>';
+  font: 36px "Consolas", monospace;
+}
+
+/*
+==========================================
+	WALLET POPUP START
+==========================================
+*/
+
+
+.wallet-popup .wallet-pop-content h2{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 40px;
+}
+.wallet-popup .wallet-pop-content p{
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+.wallet-popup .wallet-pop-content .wallets{
+	border: 1px solid rgba(0,0,0,0.17);
+	border-radius: 10px;
+	margin-top: 20px;
+	padding-bottom: 0;
+	overflow: auto;
+}
+.wallet-popup .wallet-pop-content .wallets ul{
+	list-style: none;
+	margin-bottom: 0;
+}
+.wallet-popup .wallet-pop-content .wallets ul li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.18);
+}
+.wallet-popup .wallet-pop-content .wallets ul li:last-child{
+	border-bottom: none;
+}
+.wallet-popup .wallet-pop-content .wallets ul li a{
+	display: block;
+	width: 100%;
+	padding: 12px 10px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 38px;
+	text-transform: capitalize;
+	color: #141414;
+}
+
+.wallet-popup .wallet-pop-content .wallets ul li.showMore a{
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 38px;
+	color: #8C8C8C;
+}
+.wallet-popup .wallet-pop-content .wallets ul li .popular-label span{
+	padding: 7px 20px;
+	border-radius: 7px;
+	font-size: 15px;
+	font-weight: 500;
+	color: var(--white);
+	background: var(--primary-color);
+	margin-right: 20px;
+
+}
+.wallet-popup .wallet-pop-content .wallets ul li a img{
+	width: 25px;
+	margin-right: 15px;
+}
+/*
+==========================================
+	WALLET POPUP END
+==========================================
+*/
+
+
+/*
+=============================================
+	HEADER CONTENT START
+=============================================
+*/
+.header-content{
+	padding: 10px 20px;
+	margin: 40px 0;
+}
+
+.header-content .header-text h1{
+	font-family: Poppins;
+	font-size: 22px;
+	line-height: 1.4;
+
+}
+
+.header-content .header-text p{
+	font-family: Poppins;
+	font-size: 14px;
+	line-height: 1.4;
+
+}
+
+.dots1{
+	top: 50%;
+	left: 1%;
+	transform: translateY(-50%);
+	width: 200px;
+}
+.dots2{
+	top: 3%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+}
+
+.dots3{
+	top: 50%;
+	right: 1%;
+	transform: translateY(-18%);
+	width: 80px;
+}
+.connect-wallet a.wallet-btn{
+	margin: 0px 0 !important;
+}
+/*
+=============================================
+	HEADER CONTENT END
+=============================================
+*/
+
+
+/*
+=============================================
+	HEADER CARD SECTION START
+=============================================
+*/
+.header-card-sec{
+	padding: 20px 20px;
+}
+.header-card-sec .header-cards-head h3{
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.header-card-sec .header-cards-head a{
+	font-size: 16px;
+	line-height: 30px;
+
+}
+
+
+.header-card-sec .header-card-container .card-body h4{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+/*
+=============================================
+	HEADER CARD SECTION END
+=============================================
+*/
+
+/*
+=============================================
+	CONNECT WALLET SECTION START
+=============================================
+*/
+.connect-wallet{
+	background: var(--secondry-color);
+	padding: 25px 0px;
+}
+
+.connect-wallet h2{
+	font-size: 22px;
+	line-height: 1.5;
+}
+.connect-wallet p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	opacity: 0.8;
+
+}
+
+.connect-wallet a.wallet-btn{
+	display: inline-block;
+	width: 250px;
+	margin: 5px 0;
+}
+
+/*
+=============================================
+	CONNECT WALLET SECTION END
+=============================================
+*/
+/*
+=============================================
+	CORPORATE SECTION START
+=============================================
+*/
+.corporate-section{
+	padding: 30px 20px;
+}
+
+
+/*
+=============================================
+	CORPORATE SECTION END
+=============================================
+*/
+
+
+/*
+=============================================
+	CREATOR SECTION START
+=============================================
+*/
+.creator-section{
+	padding: 20px 40px;
+	margin: 30px 0;
+}
+
+.creator-section .creator-text h3{
+	margin-top: 30px;
+}
+.creator-section .creator-text h3 span{
+	color: var(--secondry-color);
+}
+
+.get-video iframe{
+	height: 220px;
+}
+/*
+=============================================
+	CREATOR SECTION END
+=============================================
+*/
+
+/*
+=============================================
+	LAST WEEK SECTION START
+=============================================
+*/
+.last-week{
+	margin: 0px 0;
+	padding: 20px 10px;
+}
+
+.last-week .last-week-container h3{
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.last-week .last-week-container p{
+	font-size: 14px;
+}
+
+.last-week .week-cards{
+	margin-top: 40px;
+}
+.last-week .week-cards .week-s-card{
+	background: var(--white);
+	border: 1px solid #EFEFEF;
+	box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+	border-radius: 10px;
+}
+
+.last-week .week-cards .week-card{
+	margin: 10px 0;
+}
+.last-week .week-cards .week-card .week-img{
+	width: 100px;
+}
+.last-week .week-cards .week-card .week-card-content{
+	width: 100%;
+	margin-left: 10px;
+	position: relative;
+	padding-right: 30px;
+}
+.last-week .week-cards .week-card .week-card-content img.check-img{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+.last-week .week-cards .week-card .week-card-content h5{
+	font-size: 15px;
+	line-height: 1;
+
+}
+.last-week .week-cards .week-card .week-card-content p{
+	text-align: left;
+	font-size: 13px;
+	line-height: 1.2;
+}
+.last-week .week-cards .week-card .week-card-content h6{
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 1;
+}
+
+.last-week .week-cards .week-value {
+	margin: 10px 0;
+	padding: 0 5px;
+}
+.last-week .week-cards .week-value strong{
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.last-week .week-cards .week-value strong:last-child{
+	color: var(--green);
+	text-align: right;
+}
+
+
+
+/*
+=============================================
+	LAST WEEK SECTION END
+=============================================
+*/
+
+/*
+=============================================
+	PARTNER SECTION START
+=============================================
+*/
+.partner-sec{
+	margin-top: 50px;
+
+	padding: 40px 20px;
+	background: var(--pink);
+}
+.partner-sec img{
+	width: 100%;
+}
+/*
+=============================================
+	PARTNER SECTION END
+=============================================
+*/
+
+/*
+=============================================
+	FOOTER SECTION START
+=============================================
+*/
+.footer-section{
+	background: linear-gradient(180deg, rgba(242, 156, 67, 0.26) 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+	padding: 20px 20px;
+}
+
+.footer-section .ft-menu h6{
+	font-size: 14px;
+}
+
+.footer-section .ft-menu ul li a{
+	font-size: 14px;
+}
+
+
+.footer-section .copyright .social-link ul li a{
+	font-size: 14px;
+
+}
+
+/*
+=============================================
+	FOOTER SECTION END
+=============================================
+*/
+
+.header-content .swiper .swiper-arrow{
+	position: absolute;
+	left: 50%;
+	top: 95%;
+	transform: translateX(-55%);
+}
+.header-content .swiper .swiper-arrow.swiper-button-next{
+	left: 60%;
+}
+.header-content .swiper .swiper-arrow.swiper-button-prev{
+	left: 40%;
+}
+
+}
+
+
+@media screen and (max-width: 425px){
+.dots1{
+	top: 50%;
+	left: 1%;
+	transform: translateY(-50%);
+	width: 150px;
+}
+.dots2{
+	top: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70px;
+}
+
+.dots3{
+	top: 60%;
+	right: 1%;
+	transform: translateY(-10%);
+	width: 30px;
+}
+}

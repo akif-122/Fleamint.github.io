@@ -1,0 +1,740 @@
+
+
+.product-detail{
+	width: 90%;
+	margin: 100px auto;
+}
+
+
+/*
+==========================================
+	PRODUCT DESCRIPTION START
+==========================================
+*/
+.product-detail .produt-img img{
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.product-detail .product-des{
+	margin-top: 10px;
+	padding: 10px 0;
+}
+.product-detail .product-des h3{
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 24px;
+	color: #191B21;
+	margin: 20px 0;
+}
+.product-detail .product-des p{
+	margin: 25px 0;
+}
+.product-detail .product-des h5{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #191B21;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.product-detail .product-des span{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #191B21;
+}
+.product-detail .product-des small{
+	font-weight: 400;
+	font-size: 16px;
+	color: #191B21;
+	opacity: 0.6;
+}
+
+
+
+/*
+==========================================
+	PRODUCT DESCRIPTION START
+==========================================
+*/
+
+
+
+/*
+==========================================
+	CREATOR PROFILE START
+==========================================
+*/
+
+
+.product-content > h2{
+	font-weight: 600;
+	font-size: 55px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--light-black);
+	margin: 20px 0;
+}
+
+.product-content .creator-profiles{
+	padding: 30px 0;
+	display: flex; 
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.product-content .creator-profiles .creator{
+	display: flex; 
+	align-items: center;
+	margin-right: 10px;
+	width: 50%;
+}
+.product-content .creator-profiles .creator > img{
+	margin-right: 15px;
+	min-width: 80px;
+	max-width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.product-content .creator-profiles .creator .creator-text small{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #191B21;
+	opacity: 0.6;
+	position: relative;
+}
+.product-content .creator-profiles .creator .creator-text small img{
+	position: absolute;
+	left: 110%;
+	top: 3px;
+}
+.product-content .creator-profiles .creator .creator-text h5{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: #191919;
+}
+
+/*
+==========================================
+	CREATOR PROFILE END
+==========================================
+*/
+
+/*
+==========================================
+	COUNT DOWN TIMER START
+==========================================
+*/
+
+.count-down-timer{
+	padding: 20px 0;
+}
+.count-down-timer h5{
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 24px;
+	color: #191B21;
+}
+.count-down-timer .count-down-container{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	padding-bottom: 15px;
+
+}
+
+.count-down-timer .count-down-container .count-down-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 90px;
+	margin: 10px;
+	margin-left: 0;
+	border: 2px solid var(--light-black);
+	border-radius: 10px;
+	padding: 8px;
+}
+.count-down-timer .count-down-container .count-down-text h2{
+	font-size: 28px;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.count-down-timer .count-down-container .count-down-text span{
+	font-size: 15px;
+	color: var(--light-black);
+	opacity: 0.5;
+}
+/*
+==========================================
+	COUNT DOWN TIMER END
+==========================================
+*/
+
+
+/*
+==========================================
+	PLACE BID SECTION START
+==========================================
+*/
+
+.place-bid{
+	padding: 25px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.place-bid .place-bid-container{
+	display: flex;
+	align-items: flex-end;
+}
+.place-bid .place-bid-container > small{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #191B21;
+	opacity: 0.6;
+	margin-bottom: 15px;
+}
+
+.place-bid .place-bid-container .bid-input-wrap{
+	width: 400px;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.place-bid .place-bid-container .bid-input-wrap label{
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	color: #191B21;
+	background: #FDF0E6;
+	padding: 0 4px;
+	position: absolute;
+	top: -12px;
+	left: 15px;
+}
+
+.place-bid .place-bid-container .bid-input-wrap input{
+	width: 100%;
+	height: 75px;
+	border: 1px solid  var(--secondry-color);
+	background: transparent;
+	border-radius: 10px;
+	padding: 15px;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color:  var(--secondry-color);
+}
+
+
+
+.place-bid .place-bid-container .bid-input-wrap span{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 24px;
+	color: #191B21;
+	opacity: 0.6;
+}
+.place-bid  .bid-btn{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.place-bid  .bid-btn .bitBtn{
+	width: 46%;
+	display: inline-block;
+}
+
+/*
+==========================================
+	PLACE BID SECTION END
+==========================================
+*/
+
+
+/*
+======================================
+	BID HISTORY START
+======================================
+*/
+.bid-history{
+	padding: 30px 0;
+	margin-top: 20px;
+}
+.bid-history > h4{
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #191B21;
+}
+
+.bid-placed-container{
+	margin-top: 20px;
+}
+
+.bid-placed-container .bid-placed-by{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	padding: 15px 0;
+}
+.bid-placed-container .bid-placed-by > img{
+	min-width: 80px;
+	max-width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 15px;
+}
+.bid-placed-container .bid-placed-by-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.bid-placed-container .bid-placed-by-text p{
+	margin: 0;
+	margin-right: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #191B21;
+	opacity: 0.6;
+}
+
+.bid-placed-container .bid-placed-by-text h5{
+	margin: 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: #191919;
+
+}
+.bid-placed-container .bid-placed-by-text span{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #191B21;
+	opacity: 0.6;
+}
+/*
+======================================
+	BID HISTORY END
+======================================
+*/
+@media screen and (max-width: 1199px){
+
+
+/*
+==========================================
+	CREATOR PROFILE START
+==========================================
+*/
+
+
+.product-content > h2{
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.product-content .creator-profiles .creator > img{
+	margin-right: 10px;
+	min-width: 70px;
+	max-width: 70px;
+	height: 70px;
+}
+.product-content .creator-profiles .creator .creator-text small{
+	font-size: 15px;
+}
+
+.product-content .creator-profiles .creator .creator-text h5{
+	font-size: 18px;
+}
+
+/*
+==========================================
+	CREATOR PROFILE END
+==========================================
+*/
+
+
+/*
+==========================================
+	PLACE BID SECTION START
+==========================================
+*/
+
+.place-bid .place-bid-container > small{
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.place-bid .place-bid-container .bid-input-wrap{
+	width: 330px;
+	margin-right: 5px;
+}
+
+
+.place-bid .place-bid-container .bid-input-wrap input{
+	font-size: 32px;
+}
+
+
+
+.place-bid .place-bid-container .bid-input-wrap span{
+	font-size: 18px;
+}
+
+/*
+==========================================
+	PLACE BID SECTION END
+==========================================
+*/
+
+
+/*
+======================================
+	BID HISTORY START
+======================================
+*/
+.bid-history{
+	padding: 30px 0;
+	margin-top: 20px;
+}
+.bid-history > h4{
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #191B21;
+}
+
+.bid-placed-container{
+	margin-top: 20px;
+}
+
+.bid-placed-container .bid-placed-by{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	padding: 15px 0;
+}
+.bid-placed-container .bid-placed-by > img{
+	min-width: 70px;
+	max-width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.bid-placed-container .bid-placed-by-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.bid-placed-container .bid-placed-by-text p{
+	margin: 0;
+	margin-right: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #191B21;
+	opacity: 0.6;
+}
+
+.bid-placed-container .bid-placed-by-text h5{
+	margin: 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: #191919;
+
+}
+.bid-placed-container .bid-placed-by-text span{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #191B21;
+	opacity: 0.6;
+}
+/*
+======================================
+	BID HISTORY END
+======================================
+*/
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+/*
+==========================================
+	PRODUCT DESCRIPTION START
+==========================================
+*/
+
+.product-detail .product-des h3{
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 24px;
+	color: #191B21;
+	margin: 20px 0;
+}
+.product-detail .product-des p{
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+
+/*
+==========================================
+	PRODUCT DESCRIPTION START
+==========================================
+*/
+
+.product-content > h2{
+	font-size: 36px;
+	line-height: 48px;
+}
+
+}
+
+@media screen and (max-width: 575px){
+.product-detail{
+	width: 90%;
+	margin: 50px auto;
+}
+
+/*
+==========================================
+	PRODUCT DESCRIPTION START
+==========================================
+*/
+
+.product-detail .product-des h3{
+	font-size: 22px;
+	margin: 15px 0;
+}
+.product-detail .product-des p{
+	margin: 20px 0;
+}
+.product-detail .product-des h5{
+	font-size: 17px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+.product-detail .product-des span{
+	font-size: 17px;
+}
+.product-detail .product-des small{
+	font-size: 13px;
+}
+
+
+
+/*
+==========================================
+	PRODUCT DESCRIPTION START
+==========================================
+*/
+
+
+
+
+
+
+
+/*
+==========================================
+	CREATOR PROFILE START
+==========================================
+*/
+
+
+.product-content > h2{
+	font-size: 30px;
+	line-height: 2;
+}
+
+.product-content .creator-profiles{
+	padding: 30px 0;
+	display: flex; 
+	align-items: center;
+	flex-wrap: wrap;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.product-content .creator-profiles .creator{
+	display: flex; 
+	align-items: center;
+	width: 100%;
+	margin: 10px 0
+}
+
+/*
+==========================================
+	CREATOR PROFILE END
+==========================================
+*/
+
+/*
+==========================================
+	COUNT DOWN TIMER START
+==========================================
+*/
+
+.count-down-timer{
+	padding: 20px 0;
+}
+.count-down-timer h5{
+	font-size: 22px;
+}
+
+.count-down-timer .count-down-container .count-down-text{
+	min-width: 23%;
+	max-width: 90px;
+	margin-right: 5px;
+}
+.count-down-timer .count-down-container .count-down-text h2{
+	font-size: 22px;
+	margin-bottom: 0;
+}
+
+.count-down-timer .count-down-container .count-down-text span{
+	font-size: 13px;
+	
+}
+/*
+==========================================
+	COUNT DOWN TIMER END
+==========================================
+*/
+
+
+/*
+==========================================
+	PLACE BID SECTION START
+==========================================
+*/
+
+.place-bid{
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.place-bid .place-bid-container{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.place-bid .place-bid-container .bid-input-wrap{
+	width: 100%;
+	margin-right: 0px;
+}
+
+.place-bid .place-bid-container .bid-input-wrap input{
+	width: 100%;
+	height: 65px;
+	font-size: 24px;
+}
+
+
+
+.place-bid .place-bid-container .bid-input-wrap span{
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.place-bid  .bid-btn .bitBtn{
+	width: 46%;
+	font-size: 14px;
+	padding: 8px 10px;
+}
+
+/*
+==========================================
+	PLACE BID SECTION END
+==========================================
+*/
+
+
+/*
+======================================
+	BID HISTORY START
+======================================
+*/
+.bid-history{
+	padding: 20px 0;
+	margin-top: 20px;
+}
+.bid-history > h4{
+	font-size: 22px;
+}
+
+
+.bid-placed-container .bid-placed-by{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	padding: 15px 0;
+}
+.bid-placed-container .bid-placed-by > img{
+	margin-right: 10px;
+}
+
+.bid-placed-container .bid-placed-by-text p{
+	font-size: 14px;
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+
+.bid-placed-container .bid-placed-by-text h5{
+	font-size: 18px;
+	line-height: 1;
+
+}
+.bid-placed-container .bid-placed-by-text span{
+	font-weight: 400;
+	font-size: 13px;
+}
+/*
+======================================
+	BID HISTORY END
+======================================
+*/
+
+
+
+
+}

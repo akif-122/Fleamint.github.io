@@ -1,0 +1,399 @@
+/*
+=====================================
+	ABOUT SECTION START 
+=====================================
+*/
+.about-section{
+	width: 90%;
+	margin: 40px auto;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+}
+.about-section .about-text{
+	padding: 30px 20px;
+}
+.about-section .about-text h2{
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 58px;
+	text-transform: capitalize;
+	color: var(--light-black);
+	margin-bottom: 20px;
+}
+.about-section .about-text h2 span{
+	color: var(--secondry-color);
+}
+.about-section .about-list{
+	margin: 30px 0;
+}
+.about-section .about-list ul{
+	margin-left: 20px;
+	margin-right: 100px;
+}
+.about-section .about-list ul li{
+	position: relative;
+	list-style: none;
+	opacity: 1;
+}
+.about-section .about-list ul li:before{
+	content: "";
+	position: absolute;
+	left: -17px;
+	top: 12px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--secondry-color);
+}
+
+
+.about-video .video-section .video-play-btn span{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: var(--primary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 50%;
+	padding-left: 5px;
+	cursor: pointer;
+}
+/*
+=====================================
+	ABOUT SECTION END 
+=====================================
+*/
+
+
+/*
+=====================================
+	MEMBERSHIP SECTION START
+=====================================
+*/
+.membership{
+	width: 95%;
+	margin: 50px auto;
+	border-radius: 10px;
+	background: #FAF0E6;
+	padding: 40px 20px;
+}
+
+.membership .m-head-text h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.membership .m-head-text h2 span{
+	color: var(--secondry-color);
+
+}
+
+
+.membership-card .m-card{
+	min-width: 282px !important;
+	max-width: 320px !important;
+	height: 510px;
+	margin: 10px auto;
+	position: 0;
+}
+.membership-card .m-card .card-body{
+	padding: 0 7px;
+}
+.membership-card .m-card .m-card-head{
+	padding: 20px 10px;
+	border-bottom: 1px dashed var(--primary-color);
+	margin-bottom: 20px;
+
+}
+.membership-card .m-card .m-card-head h3{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+
+.membership-card .m-card .m-card-head span{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+}
+
+.membership-card .m-card  .m-card-list ul li{
+	display: block;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	color: var(--white);
+	margin: 18px 0;
+	padding-right: 10px;
+	position: relative;
+}
+.membership-card .m-card  .m-card-list ul li span{
+	font-size: 11px;
+	line-height: 24px;
+	color: var(--primary-color);
+}
+.membership-card .m-card  .m-card-list ul li img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.membership-card .m-card .m-card-btn a{
+	display: block;
+	border: 1px solid var(--white);
+	border-radius: 10px;
+	height: 50px;
+	margin: 30px auto;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+	color: var(--white);
+	text-transform: uppercase;
+
+}
+.platnium {
+	background: url("../img/bg.png");
+	background-size: 100% 100%;
+}
+.platnium .m-card-head{
+	border-bottom: 1px dashed var(--primary-color);
+}
+
+
+.platnium .m-card-head h3{
+	color: #E4CD85;
+}
+
+.platnium .m-card-head span{
+	color: #E4CD85;
+}
+
+.platnium  .m-card-list ul li{
+	color: var(--white);
+}
+
+
+
+.gold {
+	background: url("../img/bg2.png");
+	background-size: 100% 100%;
+}
+.gold .m-card-head{
+	border-bottom: 1px dashed #5B2F02 !important;
+}
+
+
+.gold .m-card-head h3{
+	color: #5B2F02;
+}
+
+.gold .m-card-head span{
+	color: #5B2F02;
+}
+
+.gold  .m-card-list ul li{
+	color: var(--white);
+}
+
+.gold  .m-card-list ul li span{
+	color: #5B2F02 !important;
+}
+
+
+.silver {
+	background: url("../img/bg3.png");
+	background-size: 100% 100%;
+}
+
+.silver .m-card-head{
+	border-bottom: 1px dashed #394047 !important;
+}
+
+
+.silver .m-card-head h3{
+	color: #394047;
+}
+
+.silver .m-card-head span{
+	color: #394047;
+}
+
+.silver  .m-card-list ul li{
+	color: #000000 !important;
+	
+}
+.silver  .m-card-list ul li span{
+	color: #394047 !important;
+}
+
+.silver.m-card .m-card-btn a{
+	color: #000000;
+	border-color: #000000;
+}
+
+
+.starter {
+	background: url("../img/bg4.png");
+	background-size: 100% 100%;
+}
+.starter .m-card-head{
+	border-bottom: 1px dashed #D3D3D3 !important;
+}
+
+
+.starter .m-card-head h3{
+	color: #fff !important;
+}
+
+.starter .m-card-head span{
+	color: #D3D3D3 !important;
+}
+
+.starter .m-card-list ul li{
+	color: #fff !important;
+	
+}
+.starter  .m-card-list ul li span{
+	color: #D3D3D3 !important;
+}
+
+
+/*
+=====================================
+	MEMBERSHIP SECTION END
+=====================================
+*/
+
+
+/*
+=====================================
+	HELP SECTION START
+=====================================
+*/
+.help-sec{
+	margin: 100px auto;
+	width: 90%;
+}
+
+.help-sec h2{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+
+.help-sec .help-cards{
+	margin: 50px 0;
+	padding: 40px 0;
+}
+
+.help-sec .help-cards .card-body{
+	background: var(--white);
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	border-radius: 10px;
+	padding: 40px 30px;
+}
+
+.help-sec .help-cards .card-body img{
+	margin: 20px 0;
+}
+.help-sec .help-cards .card-body p{
+	margin: 20px 0;
+}
+/*
+=====================================
+	HELP SECTION END
+=====================================
+*/
+
+@media screen and (max-width: 991px){
+/*
+=====================================
+	ABOUT SECTION START 
+=====================================
+*/
+.about-section{
+	padding: 20px;
+}
+.about-section .about-text h2{
+	font-weight: 700;
+	font-size: 35px;
+}
+/*
+=====================================
+	ABOUT SECTION END 
+=====================================
+*/
+
+
+
+}
+
+
+@media screen and (max-width: 767px){
+.about-section .about-text h2{
+	font-size: 30px;
+}
+/*
+=====================================
+	MEMBERSHIP SECTION START
+=====================================
+*/
+
+.membership .m-head-text h2{
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+
+/*
+=====================================
+	MEMBERSHIP SECTION END
+=====================================
+*/
+.corporate-header .corporate-header-text h2 {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+
+
+
+.about-section .about-list ul{
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 575px){
+
+
+.about-section .about-list{
+	margin: 30px 0;
+	flex-direction: column;
+}
+.about-section .about-list ul{
+	margin-left: 20px;
+	margin-right: 00px;
+	margin-bottom: 40px
+}
+.about-section .about-list ul li{
+	position: relative;
+	list-style: none;
+	opacity: 1;
+}
+
+}

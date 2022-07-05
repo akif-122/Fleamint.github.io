@@ -1,0 +1,288 @@
+
+
+.ntf-detail .cft-d-card{
+	background: var(--white);
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	border-radius: 10px;
+}
+.ntf-detail .cft-d-card span{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #191B21;
+	opacity: 0.6;
+}
+
+.ntf-detail .cft-d-card h5{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #191919;
+	margin-top: 5px;
+}
+
+
+
+
+/*
+=======================================
+	NFT-filter-container
+=======================================
+*/
+.nft-filter{
+	width: 90%;
+	margin: 0 auto;
+}
+.nft-filter .nft-option-container{
+	display: flex;
+}
+.nft-filter .nft-option-container .nft-filter-opt{
+	width: 170px;
+	margin-right: 10px;
+	position: relative;
+}
+.nft-filter .nft-option-container .nft-filter-opt select{
+	width: 100%;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #868686;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+
+.nft-filter .nft-option-container .nft-filter-opt:after {
+  content: '>';
+  font: 20px "Consolas", monospace;
+  color: #868686;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform:  rotate(90deg) ;
+  right: 15px;
+  top: 8px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.nft-search-container{
+	width: 300px;
+	margin-left: auto;
+}
+.nft-search-container .nft-search{
+	width: 100%;
+}
+.nft-search-container .nft-search input{
+	width: 100%;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid var(--primary-color);
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+.nft-search-container .nft-search input:focus{
+	outline: none !important;
+
+}
+.nft-search-container .nft-search button{
+	background: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	padding: 5px 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-left: none;
+	outline: none !important;
+
+}
+.nft-search-container .nft-search button:hover{
+	background: var(--secondry-color);
+}
+.nft-search-container .nft-search button img{
+	width: 20px;
+}
+
+/*
+=======================================
+	NFT-filter-container end
+=======================================
+*/
+
+@media screen and (max-width: 1199px){
+
+/*
+=======================================
+	NFT-filter-container
+=======================================
+*/
+.nft-filter{
+	width: 90%;
+	margin: 0 auto;
+}
+.nft-filter .nft-option-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nft-filter .nft-option-container .nft-filter-opt{
+	width: 170px;
+	margin: 10px 0;
+	margin-right: 10px;
+	position: relative;
+}
+.nft-search-container{
+	min-width: 80%;
+	margin: 10px auto;
+	margin-bottom: 0;
+}
+/*
+=======================================
+	NFT-filter-container end
+=======================================
+*/
+
+}
+
+
+@media screen and (max-width: 991px){
+
+/*
+=======================================
+	NFT-filter-container
+=======================================
+*/
+
+.nft-filter .nft-option-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nft-filter-wrap{
+	width: 80%;
+}
+.nft-filter .nft-option-container .nft-filter-opt{
+	width: 30%;
+	margin: 10px 0;
+	margin-right: 10px;
+	position: relative;
+}
+.nft-search-container{
+	min-width: 80%;
+	margin: 10px auto;
+	margin-bottom: 0;
+}
+/*
+=======================================
+	NFT-filter-container end
+=======================================
+*/
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+/*
+=======================================
+	NFT-filter-container
+=======================================
+*/
+
+.nft-filter .nft-option-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nft-filter-wrap{
+	width: 90%;
+}
+.nft-filter .nft-option-container .nft-filter-opt{
+	width: 47%;
+	margin: 10px 0;
+	margin-right: 10px;
+	position: relative;
+}
+.nft-search-container{
+	min-width: 90%;
+	margin: 10px auto;
+	margin-bottom: 0;
+}
+/*
+=======================================
+	NFT-filter-container end
+=======================================
+*/
+
+
+.ntf-detail .cft-d-card{
+	background: var(--white);
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	border-radius: 10px;
+	margin: 10px 0;
+}
+.ntf-detail .cft-d-card span{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #191B21;
+	opacity: 0.6;
+}
+
+.ntf-detail .cft-d-card h5{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2;
+	text-transform: capitalize;
+	color: #191919;
+	margin-top: 5px;
+}
+
+
+}
+
+@media screen and (max-width: 575px){
+
+/*
+=======================================
+	NFT-filter-container
+=======================================
+*/
+
+
+.nft-filter-wrap{
+	width: 100%;
+}
+.nft-filter .nft-option-container .nft-filter-opt{
+	width: 100%;
+	margin: 5px 0;
+}
+.nft-search-container{
+	width: 100%;
+	margin: 10px auto;
+	margin-bottom: 0;
+}
+
+/*
+=======================================
+	NFT-filter-container end
+=======================================
+*/
+
+}

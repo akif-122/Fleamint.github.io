@@ -1,0 +1,160 @@
+
+/*
+=======================================
+	EDIT PROFILE START
+=======================================
+*/
+.edit-prof{
+	width: 90%;
+	margin: 50px auto;
+	padding: 40px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	background: rgba(255,255,255,0.5);
+}
+.edit-prof .profile-setting{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.edit-prof .profile-setting > h3{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 54px;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.edit-prof .profile-setting p{
+	margin-bottom: 40px;
+	width: 60%;
+}
+
+.profile-avater{
+	margin-right: 30px;
+}
+.profile-avater .prof-img{
+	overflow: hidden;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+}
+.profile-avater .prof-img > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profile-avater .prof-img .prof-img-edit{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.47);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.profile-avater .prof-img .prof-img-edit span{
+	color: var(--white);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 26px;
+}
+.edit-prof-form label{
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: var(--light-black);
+}
+.edit-prof-form textarea,
+.edit-prof-form input{
+	border: 1px solid #CACACA;
+	border-radius: 10px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #000000;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.edit-prof-form input{
+	height: 50px;
+}
+/*
+=======================================
+	EDIT PROFILE END
+=======================================
+*/
+
+@media screen and (max-width: 991px){
+
+
+/*
+=======================================
+	EDIT PROFILE START
+=======================================
+*/
+.edit-prof .profile-setting{
+	width: 95%;
+	margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+/*
+=======================================
+	EDIT PROFILE START
+=======================================
+*/
+.edit-prof{
+	width: 90%;
+	margin: 50px auto;
+	padding: 40px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 26px rgba(16, 30, 115, 0.1);
+	background: rgba(255,255,255,0.5);
+}
+
+
+.edit-prof .profile-setting > h3{
+	font-size: 26px;
+	line-height: 1.4;
+}
+.edit-prof .profile-setting p{
+	font-size: 14px;
+	width: 99%;
+}
+
+.profile-avater{
+	margin: 20px auto;
+}
+.profile-avater .prof-img{
+	width: 120px;
+	height: 120px;
+}
+
+.edit-prof-form label{
+	font-size: 14px;
+	line-height: 1.2;
+}
+.edit-prof-form textarea,
+.edit-prof-form input{
+	font-size: 14px;
+	line-height: 1.4;
+	padding: 7px 10px;
+	margin-bottom: 15px;
+}
+.edit-prof-form input{
+	height: 45px;
+}
+
+
+}
